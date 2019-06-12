@@ -24,20 +24,38 @@ Let’s do it step by step.
 First, we need to make a very tiny server and open an endpoint
 github_api_callback:
 
+    // Create tiny server to receive github webhook
+
+    // Node.js Express body-parser middleware
+    // parses incoming requests as handler for req.body property or user-controlled object property and value inputs. needs validation to trust 
+    // init & return requests in json of 'Content-Type' as type-options  -  https://is.gd/2UJRBC
+
+    // Use Node Express
     var express = require('express')
+    // get server http requests from Node Express content parsing handler
     var bodyParser = require('body-parser')
+    
     var app = express()
+
+    // parse JSON with content-type (options[inflate, limit, reviver, strict, type, verify])
     app.use(bodyParser.json());
+    
+    // bodyParser.json(/, http.createServer())
     app.get('/', function (req, res) {
       res.send('Hello World!')
     })
+
+    // bodyParser.json(run github_api_callback code)
     app.post('/github_api_callback', function (req, res) {
       // do something
       res.send('callback!')
     })
+
+    // bodyParser.json(display 'callback' content in 3000)
     app.listen(3000, function () {
       console.log('Webhook server is listening on port 3000!');
     })
+    
 
 #### 2. Set up GitHub repo’s webhook
 
@@ -57,7 +75,7 @@ receive a lot of events and data. In what condition should we post to Medium? I
 use 2 conditions.
 
 1.  When the action is labeled, which occurs when I label any tag on an issue.
-1.  When the issue has the label published.
+2.  When the issue has the label published.
 
 This means: it should be posted on Medium if an issue is labeled with tag
 “published.” Let’s take a look on the implementation:
