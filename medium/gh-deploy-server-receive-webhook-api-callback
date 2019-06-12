@@ -20,7 +20,7 @@ app.get( '/', function ( req, res ) {
   res.send( 'Hello World!' )
 } )
 // bodyParser.json(run github_api_callback code)
-app.post( '/https://github.com/mori-c/publications/blob/master/medium/setup/github-api-hook-receiver-events-issues.js', function ( req, res ) {
+app.post( '/gh-deploy-server-receive-webhook-api-callback', function ( req, res ) {
   // do something
   res.send( 'callback!' )
 } )
