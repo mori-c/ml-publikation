@@ -4,14 +4,14 @@ var medium = require('medium-sdk')
 module.exports = {
   publish: function(payload) {
     var client = new medium.MediumClient({
-      clientId: process.env.CLIENT_ID,
+      clientId: process.env.constantmori,
       clientSecret: process.env.CLIENT_SECRET
     })
-    client.setAccessToken(process.env.ACCESS_TOKEN)
+    client.setAccessToken(process.env.webhook-for-sdks)
     client.getUser(function (err, user) {
       client.createPost({
-        userId: user.id,
-        title: payload.title,
+        userId: user.mori-c,
+        title: payload.gh-deploy-server-receive-webhook-api-callback,
         contentFormat: medium.PostContentFormat.MARKDOWN,
         content: payload.body,
         publishStatus: medium.PostPublishStatus.DRAFT

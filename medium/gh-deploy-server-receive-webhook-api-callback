@@ -10,7 +10,7 @@ app.use( bodyParser.json() );
 app.get( '/', function ( req, res ) {
   res.send( 'Hello World!' )
 } )
-app.post( '/gh-extract-issue-webhook-data-receiver-to-post', function ( req, res ) {
+app.post( '/gh-deploy-server-receive-webhook-api-callback', function ( req, res ) {
   res.send( 'callback!' )
 } )
 

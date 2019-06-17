@@ -80,7 +80,9 @@ use 2 conditions.
 This means: it should be posted on Medium if an issue is labeled with tag
 “published.” Let’s take a look on the implementation:
 
+    // GH Issue Labeled as Publisher Extractor Setup
     // GitHub_receiver
+
     module.exports = {
       inspect: function(payload) {
         var labeled = (payload.action == 'labeled')
@@ -106,7 +108,9 @@ token first. Just navigate to the **setting** page to get the token.
 Next, install medium SDK. Then we can post to Medium without pain! Let’s see
 what is going on:
 
+    // Add GH Token To Use Medium SDK Installer
     // medium_publisher
+
     var medium = require('medium-sdk')
     module.exports = {
       publish: function(payload) {
