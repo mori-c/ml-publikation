@@ -1,0 +1,154 @@
+/*
+Media screen definition based on Zurb's 5.5.3 Media Queries:
+http://foundation.zurb.com/sites/docs/v/5.5.3/media-queries.html
+*/
+
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) /* max-width 640px, mobile-only styles, use when QAing mobile issues */ {
+    aside.controls {
+    visibility: hidden;
+    display: none;
+    }
+    
+    aside.control-menu-overlay {
+    right: 0.45em;
+    top: 0.25em;
+    opacity: 0.5;
+    }
+    
+    img.animated.swing {
+    opacity: 0.75;
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding-top: 4em;
+    margin-left: -5em;
+    }
+    img.animated.jello {
+    opacity: 0.15;
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: -5.5em;
+    }
+    img.animated.bounce {
+    opacity: 0.15;
+    width: 15%;
+    height: 15%;
+    margin: -1em 0 0 5em;
+    }
+    button.animated.wobble.bacon {
+    width: 50%;
+    }
+    img.animated.wobble.bacon {
+    opacity: 0.15;
+    width: 50%;
+    margin-right: -38em;
+    }
+    a.animated.zoomIn.twt {
+    opacity: 0.15;
+    font-size: 400%;
+    margin: 0.5em -0.5em 0 0;
+    }
+}
+
+// Medium screens
+/*@media only screen and (min-width: 40.063em) *//* min-width 641px, medium screens */ 
+@media only screen and (min-height: 320px) {
+    aside.control-menu-overlay {
+    right: 0.45em;
+    top: 0.25em;
+    opacity: 0.5;
+    }
+    
+    img.animated.swing {
+    opacity: 0.75;
+    width: 92px;
+    height: 92px;
+    float: left;
+    padding-top: 4em;
+    margin-right: -15em;
+    }
+    img.animated.jello {
+    opacity: 0.15;
+    width: 92px;
+    height: 92px;
+    float: right;
+    }
+    img.animated.bounce {
+    opacity: 0.15;
+    width: 92px;
+    height: 92px;
+    transform: rotate( -45deg );
+    margin-left: 7em;
+    }
+    button.animated.wobble.bacon {
+    width: 50%;
+    }
+    img.animated.wobble.bacon {
+    opacity: 0.15;
+    margin: 1.5em 0 0 6em;
+    }
+    a.animated.zoomIn.twt {
+    opacity: 0.15;
+    font-size: 200%;
+    margin: 0.5em -0.5em 0 0;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */ {
+    /*aside.control-menu-overlay {
+    right: 0.45em;
+    top: 0.25em;
+    opacity: 0.5;
+    }
+    
+    img.animated.swing {
+    opacity: 0.75;
+    width: 92px;
+    height: 92px;
+    float: left;
+    padding-top: 4em;
+    margin-right: -15em;
+    }
+    img.animated.jello {
+    opacity: 0.15;
+    width: 92px;
+    height: 92px;
+    float: right;
+    }
+    img.animated.bounce {
+    opacity: 0.15;
+    width: 92px;
+    height: 92px;
+    transform: rotate( -45deg );
+    margin-left: 7em;
+    }
+    button.animated.wobble.bacon {
+    width: 50%;
+    }
+    img.animated.wobble.bacon {
+    opacity: 0.15;
+    margin: 1.5em 0 0 6em;
+    }
+    a.animated.zoomIn.twt {
+    opacity: 0.15;
+    font-size: 200%;
+    margin: 0.5em -0.5em 0 0;
+    }*/
+}
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */

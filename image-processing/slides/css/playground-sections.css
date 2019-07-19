@@ -1,0 +1,472 @@
+/* playground.css */
+
+
+/* Footer Info */
+    h1.section-workshop-title {
+    	font-size: 5em;	
+        padding-top: 10%;
+        margin-top: 15%;
+    }
+    h2.section-workshop-name {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: .18em;
+        background-color: rgba(127, 255, 212, 0.75);
+        padding: 1.5% 0;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+        margin-top: -5em;
+        margin-bottom: 4.75em;
+    }
+    h6.section-title-div.degree-affiliation {
+    	font-size: 140%;
+        padding: .5em;
+        color: rgba(0,0,0,0.45);
+    }
+    h4.section-affiliation {
+        font-size: 1.5em;
+        letter-spacing: .15em;
+        border: .05em solid rgba(127, 255, 212, 0.75);
+        padding: 1.25% 0;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+    h6.section-footer.border-dash-social {
+        border-bottom: .05em solid rgba(0,0,0,0.5);
+        border-bottom-width: .15em;
+        width: 3%;
+        margin: 0 auto;
+        display: block;
+        height: 1.25em;
+        text-align: center;
+    }
+    h3.section-twitter {
+    	font-size: .95em;
+        letter-spacing: .15em;
+        margin-top: .5em;
+        margin-bottom: 18.75%;
+    }
+    h6.section-title-div.bullet-date {
+        font-size: .95em;
+        letter-spacing: .15em;
+        margin-top: .5em;
+        margin-bottom: .05em;
+    }
+    h5.section-date {
+    	font-size: .6em;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        text-align: center;
+        color: rgba(0,0,0,0.75);
+    }
+
+
+/* Section S02 */
+    h6.section-footer.border-dash.feature {
+        border-bottom: .05em dotted rgba(0,0,0,0.7);
+        border-bottom-width: .08em;
+        width: 56%;
+        margin: 0 auto;
+        display: block;
+        height: 1em;
+        text-align: center;
+    }
+    h4.section-footer.notes.feature {
+        padding-top: 2.5%;
+        width: 56%;
+        margin: 0 auto;
+        display: block;
+    }
+    a.elements {
+        cursor: auto;
+        background-color: rgba(247, 127, 162, 1);
+        color: rgba(0,0,0,0.65);
+        padding: .75em 1.25em;
+        margin: .5em;
+        font-weight: bolder;
+        font-size: 110%;
+        line-height: 3.75em;
+    }
+
+    a.elements:hover {
+        color: rgba(0,0,0,0.85);
+        padding: .75em 1.25em;
+        margin: .5em;
+        font-weight: bolder;
+        font-size: 110%;
+    }
+
+/* S02  clr-trans */
+h3.S02.clr-trans {
+    font-size: 1.25em;
+    letter-spacing: .15em;
+    border: .05em solid rgba(127, 255, 212, 0.75);
+    padding: 2.5%;
+    width: 80%;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Section S02A */
+    h3.section-description.S02A {
+        font-size: 1.25em;
+        letter-spacing: .2em;
+        border: .1em solid rgba(127, 255, 212, 0.75);
+        padding: 1.5% 0;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        padding: 2.75%;
+        background: rgba(255,255,255, .9);
+    }
+
+
+/* Section S02B */
+    h3.section-description.S02B {
+        font-size: 1.15em;
+        letter-spacing: .2em;
+        border: .2em solid rgba(127, 255, 212, 0.75);
+        padding: 1.5% 0;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: center;
+        padding: 3%;
+        background: rgba(255,255,255, 1);
+    }
+
+
+/* Section S02C */
+    h3.section-description.S02C {
+        font-size: 1.25em;
+        letter-spacing: .2em;
+        border: .2em solid rgba(127, 255, 212, 0.75);
+        padding: 1.5% 0;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: center;
+        padding: 2.75%;
+        background: rgba(255,255,255, .9);
+    }
+
+
+/* Section S02D */
+    h3.section-description.S02D {
+        font-size: 1.25em;
+        letter-spacing: .2em;
+        border: .2em solid rgba(127, 255, 212, 0.75);
+        padding: 1.5% 0;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: center;
+        padding: 2.75%;
+        background: rgba(255,255,255, .98);
+    }
+
+
+/* Section S02E */
+    h6.degree.S02E,
+    h4.section-footer.notes.S02E,
+    h6.border-dash.S02E {
+        padding-bottom: .75em;
+        color: rgba(255,255,255,0.75);
+    }
+    h3.section-description.S02E {
+        font-size: 1.15em;
+        letter-spacing: .2em;
+        border: .2em solid rgba(127, 255, 212, 0.75);
+        padding: 1.5% 0;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: center;
+        padding: 2.75%;
+        background: rgba(255,255,255, .05);
+    }
+
+/* Section S02E */
+    h1.section-title.S02E {
+        font-size: 20em;
+        padding: 0;
+        height: 270px;
+        margin-top: -65px;
+    }
+    /* SVG styling under html-css-goods-svg.css */
+    h3.section-description.S02E.svg.code {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        font-size: 100%;
+        color: rgba(0,0,0,0.75);
+        font-weight: lighter;
+        letter-spacing: .25em;
+        line-height: 1.15em;
+    }
+    ul.section-description.S02E.svg.code,
+    ul.section-description.S02E.svg.code li {
+        list-style-type: none;
+        text-align: justify;
+    }
+    h6.section-footer.border-dash.S02E {
+        height: 1em;
+    }
+    div.navigate-down-chevron.S02E {
+        margin-top: 7.5em;
+    }
+
+
+
+
+/* Section S03A */
+    div.section-description.S03A {
+        clear: none; 
+        margin: 0 auto; 
+        display: block;
+    }
+        div.section-description.S03A.left {
+            float:left; 
+            width:50%;
+        }
+            h3.section-description.S03A.inline-quote {
+                width: 92%;
+                height: 5em; 
+                padding: 5% 0 2%; 
+                background: rgba(255,255,255,0.89);
+                vertical-align: middle; 
+                border: .05em solid rgba(127, 255, 212, 0);
+            }
+        div.section-description.S03A.right {
+            float:right; 
+            width:50%;
+        }
+            h3.section-description.S03A.blockquote {
+                width: 92%;
+                height: 5em; 
+                padding: 5% 0 2%; 
+                background: rgba(255,255,255,0.89);
+                vertical-align: middle; 
+                border: .05em solid rgba(127, 255, 212, 0);
+            }
+
+/* Section S03x */
+
+/* .reveal .slides section .fragment, */
+h1.fragment
+ {
+    opacity: .05;
+    border: .025em solid rgba(205, 92, 92,1);
+    margin: 0 auto;
+    display: block;
+    margin-top: 2%;
+    color: inherit;
+    width: 40%
+}
+    /* .reveal .slides section .fragment.visible, section h1.section-title.fragment.visible */
+    h1.fragment.visible  {
+        opacity: 1;
+        background-color: rgba(255, 94, 153, .85);
+        border: .025em solid rgba(205, 92, 92,0);
+        margin: 0 auto;
+        display: block;
+        margin-top: 2%;
+        color: rgba(240, 248, 255, 1);
+        width: 40%;
+    }
+
+h6.fragment.degree,
+h2.fragment,
+h2 span.fragment,
+h6.fragment.bullet,
+h3.fragment.section-description,
+h4.fragment,
+p.fragment {
+    opacity: .05;
+    color: inherit;
+    margin-top: 1%;
+}
+    h6.fragment.degree.visible,
+    h2.fragment.visible,
+    h2 span.fragment.visible,
+    h6.fragment.bullet.visible,
+    h3.fragment.section-description.visible,
+    h4.fragment.visible,
+    p.fragment.visible {
+        opacity: .8;
+        color: inherit;
+        margin-top: 1%;
+    }
+h1.fragment.section-title.visible {
+    padding: 2%;
+}
+h2.fragment.section-subject.visible {
+    margin-bottom: 1.5em;
+}
+h6.fragment.border-dash.visible {
+    border-top: .05em solid rgba(0,0,0,0.5);
+    border-top-width: .15em;
+    width: 3%;
+    margin: 0 auto;
+    display: block;
+    height: .75em;
+    text-align: center;
+}
+h4.fragment.section-footer.notes.visible {
+    font-size: 100%;
+}
+
+
+
+
+
+/* Section S05 tb */
+
+h3.S05.tb {
+    width: 50%;
+    font-weight: lighter;
+    border: .05em solid rgba(127, 255, 212, 0.75);
+    font-family: 'Futura';
+    font-size: .8em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+}
+table.S05.tb {
+    margin: 0 auto;
+    padding: 5%;
+    display: inline-table;
+}
+    thead.S05.tb {
+        text-decoration: underline;
+    }
+    tr.S05.tb {
+        margin: 0 auto;
+        display: table-row;
+        line-height: 1.75em;
+    }
+    th.S05.tb,
+    td.S05.tb {
+        width: 50%;
+        padding-left: 3em;
+    }
+div.navigate-down-chevron.S05.tb {
+    margin-top: 10%;
+    /* -webkit-filter: invert(100%); */
+}
+
+/* S05 KYBRD */
+
+h3.S05.kybrd {
+    width: 80%;
+    font-weight: lighter;
+    border: .05em solid rgba(127, 255, 212, 0.75);
+    font-family: 'Futura';
+    font-size: .8em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+}
+
+table.S05.kybrd {    
+    padding: 5%;
+    line-height: 1.75em;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+    thead.S05.kybrd {
+    text-decoration: underline;
+    }
+
+    tr.S05.kybrd {
+        line-height: 2.75em;
+    }
+    /* th.S05.kybrd.n, */
+    th.S05.kybrd {
+        width: 1.5em;
+        padding-right: 1em;
+    }
+        th.S05.kybrd.n {
+            width: 2em;
+        }
+        th.S05.kybrd.f {
+            width: 15em;
+            padding-right: 0em;
+        }
+.navigate-down-chevron.S05.kybrd {
+    margin-top: 11%;
+    /* -webkit-filter: invert(100%); */
+}
+
+
+
+h1.S05.ds {
+    font-size: 4.25em;
+}
+h2.S05.ds  {
+    font-size: .95em;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    background-color: rgba(127, 255, 212, 1);
+    padding: 2% 1%;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+ul.S05.ds {
+    line-height: 1.5em;
+    margin-top: 1.5em;
+}
+h3.S05.ds {
+    font-size: 1.05em;
+    letter-spacing: .15em;
+    border: .05em solid rgba(127, 255, 212, 0.75);
+    background-color: rgba(255,255,255,0.75);
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 3% 5%;
+    font-weight: normal;
+}
+    code.S05.ds {
+    margin: 0 auto;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.5em;
+    letter-spacing: .15em;
+    font-size: 1.05em;
+    margin-top: 2em;
+    line-height: 1.5em;
+    }
+
+
+
+
+
+
+

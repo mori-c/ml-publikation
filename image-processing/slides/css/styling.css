@@ -1,0 +1,326 @@
+
+/*********************************************
+ * NAVIGATION
+ *********************************************/
+
+button#trigger-overlay {
+    background-color: transparent;
+    /* color: transparent; */
+    border: transparent;
+}
+
+div.navigate-menu {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+/* ICON */
+
+.reveal .control-menu,
+aside.control-menu {
+    display: none;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    z-index: 30;
+    right: .75em;
+    top: .75em;
+    -webkit-user-select: none;
+    opacity: 0.25;
+    transition: transform 350ms cubic-bezier(0.4, 0, 1, 1);
+    /* transform: rotate( -45deg ); */
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-animation-duration: 1.15s;
+    animation-duration: 1.15;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+/*
+aside.control-menu:hover {
+    border-right: 2px dotted rgba(252,252,252,0.5);
+    padding: 0.15em;
+}*/
+
+.reveal .control-menu:hover,
+aside.control-menu:hover {
+    opacity: 0.5;
+    /* transform: rotate( 45deg ); */
+    transition: transform 250ms cubic-bezier(0.4, 0, 1, 1);
+    -webkit-animation-name: wobble;
+    animation-name: wobble;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*********************************************
+ * SOCIAL MEDIA
+ *********************************************/
+
+div.footer.social {
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    left: 40%;
+    /* margin-left: -139px; */
+    z-index: 20;
+    border: 1px dotted pink;
+    /* line-height: 0px; */
+    right: 40%;
+    height: 10%;
+    /* vertical-align: middle; */
+}
+
+a.icon.nav.social {
+    height: 0;
+    line-height: 0;
+    padding: 0 3%;
+    opacity: 0.25;
+}
+
+a.icon.nav.social:hover {
+    opacity: 0.65;
+}
+
+a.icon.nav.social:after {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*********************************************
+ * OTHER ICONS
+ *********************************************/
+
+/* index.html#/5/1 */
+.sandbox.icon.ixd-test div {
+    z-index: 500;
+}
+
+p.icon.ps3 {
+    width: 11em; 
+    margin: 0 auto; 
+    display: block;
+}
+img.animated.swing {
+    opacity: 0.5; 
+    width: 92px; 
+    height: 92px; 
+    float: left; 
+    padding-top: 4em; 
+    margin-right: -15em;
+}
+
+
+
+/*********************************************
+ * BACKGROUND GRADIENTS
+ *********************************************/
+
+/*html.bg-gradient-01, .bg-gradient-01, */section.bg-gradient-01 {
+    background: 
+    linear-gradient(-180deg, rgba(30, 112, 207, .45), transparent 300%), 
+    linear-gradient(240deg, rgba(9, 155, 221, .25), transparent 50%), 
+    linear-gradient(100deg, rgba(101, 6, 4, .95), transparent 100%), 
+    linear-gradient(-100deg, rgba(158, 40, 234, .95), transparent 100%)/*, url(https://cloud.githubusercontent.com/assets/4642277/13794568/ed1620dc-ead2-11e5-9560-dafe85506391.jpg)*/
+}
+
+/* Animated Pantone 2016 Hues */
+html.bg-gradient-02, .pTone {
+    background: 
+        linear-gradient(75deg, #f7cac9, #f7786b, #91a8d0, #034f84, #f7786b, #91a8d0, #f7786b, #034f84, #f7cac9, #342760, #9896a4, #ef8905, #0df4c9) rotate(-360deg);
+    background-size: 2600% 2600%;
+
+    -webkit-animation: pTone 59s ease infinite;
+    -moz-animation: pTone 59s ease infinite;
+    animation: pTone 59s ease infinite;
+}
+@-webkit-keyframes pTone {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+
+@-moz-keyframes pTone {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes pTone { 
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+
+
+/*MINT LIME SEAFOAM - mintyFoam */
+html.bg-gradient-03, .mintyFoam {
+    background: linear-gradient(268deg, #09efb3, #c6fa39, #3dfcd8, #3dfcd8);
+    background-size: 800% 800%;
+
+    -webkit-animation: mintyFoam 16s ease infinite;
+    -moz-animation: mintyFoam 16s ease infinite;
+    animation: mintyFoam 16s ease infinite;
+}
+@-webkit-keyframes mintyFoam {
+    0%{background-position:0% 30%}
+    50%{background-position:100% 71%}
+    100%{background-position:0% 30%}
+}
+@-moz-keyframes mintyFoam {
+    0%{background-position:0% 30%}
+    50%{background-position:100% 71%}
+    100%{background-position:0% 30%}
+}
+@keyframes mintyFoam { 
+    0%{background-position:0% 30%}
+    50%{background-position:100% 71%}
+    100%{background-position:0% 30%}
+}
+
+
+/* DEEP SEA EMERALD, PURPLE, SEAFOAM, LIME - nikeForce  */
+html.bg-gradient-04, .nikeForce {
+    /*background: linear-gradient(216deg, #00ffd0, #153c35, #281635, #c6fa39) 0.5;*/
+    background: linear-gradient(-216deg, #00ffd0, rgba(66, 101, 95, 1), #281635, #c6fa39) rgba(247,120,107,0.9) 300%;
+    background-size: 1000% 1000%;
+    
+    /*animation: CustomAnimation 9s ease infinite; */    
+
+    -webkit-animation: nikeForce 50s ease infinite;
+    -moz-animation: nikeForce 50s ease infinite;
+    animation: nikeForce 50s ease infinite;
+}
+
+@-webkit-keyframes nikeForce {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes nikeForce {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes nikeForce { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.nikeACG {
+    background: linear-gradient(-116deg, rgba(75,0,130,0.9), rgba(205,92,92,0.9), rgba(247,120,107,0.9), rgba(102,51,153,0.9), rgba(61,252,216,0.9), rgba(198,250,57,0.9)) 300%;
+    background-size: 1000% 1000%;
+    
+    /*animation: CustomAnimation 9s ease infinite; */    
+
+    -webkit-animation: nikeACG 30s ease infinite;
+    -moz-animation: nikeACG 30s ease infinite;
+    animation: nikeACG 30s ease infinite;
+}
+
+@-webkit-keyframes nikeACG {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes nikeACG {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes nikeACG { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+/* Cool Grays */
+.kuhlenGraus {
+    background: linear-gradient(-116deg, #3e4a47, #5b5162, #5f7071, #645258, #6d5e5c) transparent 30%;
+    background-size: 1000% 1000%;
+
+    -webkit-animation: kuhlenGraus 19s ease infinite;
+    -moz-animation: kuhlenGraus 19s ease infinite;
+    animation: kuhlenGraus 19s ease infinite;
+}
+
+@-webkit-keyframes kuhlenGraus {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes kuhlenGraus {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes kuhlenGraus { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+
+/* LIGHTER VERSION OF KUHLEN GRAUS / COOL GRAYS */
+.pastelle {
+    background: linear-gradient(216deg, #cae5e0, #e0d3e9, #cce4e5, #e5ccd4, #e5d2cf);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: pastelle 9s ease infinite;
+    -moz-animation: pastelle 9s ease infinite;
+    animation: pastelle 9s ease infinite;
+}
+
+@-webkit-keyframes pastelle {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes pastelle {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes pastelle { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.olAbgrund {
+    /*background: linear-gradient(116deg, #072620, #160720, #200501);
+    background: linear-gradient(-316deg, #011914, #160720);*/
+    background: linear-gradient(216deg, #072620, #160720, #011914, #330010, #200501);
+background-size: 1000% 1000%;
+-webkit-animation: olAbgrund 30s ease infinite;
+-moz-animation: olAbgrund 30s ease infinite;
+-o-animation: olAbgrund 30s ease infinite;
+animation: olAbgrund 30s ease infinite;
+}
+@-webkit-keyframes olAbgrund {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes olAbgrund {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-o-keyframes olAbgrund {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes olAbgrund {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}

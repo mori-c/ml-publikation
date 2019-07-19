@@ -1,0 +1,317 @@
+/* playground.css */
+
+/* */
+
+body {
+	font-family: 'Tw Cen MT', 'Futura';
+	color: rgba(0,0,0,.75);
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+
+h1 {
+	font-size: 10em;
+	font-weight: bolder;
+}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+/* reserved as divider */
+h6 {}
+
+
+h5.section-number {
+    border-bottom: .05em solid rgba(0,0,0,0.5);
+    padding: .5em;
+    width: 7%;
+    margin: 0 auto;
+    display: block;
+    letter-spacing: .25em;
+    text-align: center;
+}
+
+h1.section-title {
+	font-size: 5em;	
+    padding: 3%;
+}
+h6.section-title-div.degree {
+	font-size: 140%;
+    padding: .5em;
+    color: rgba(0,0,0,0.45);
+}
+
+h2.section-subject {
+    font-size: .95em;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    background-color: rgba(127, 255, 212, 0.75);
+    padding: 1.5% 0;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+h6.section-title-div.bullet {
+	color: rgba(0,0,0,0.25);
+	font-size: 140%;
+    padding: .75em;
+}
+
+h3.section-description {
+    font-size: 1.4em;
+    letter-spacing: .15em;
+    border: .05em solid rgba(127, 255, 212, 0.75);
+    padding: 1.5% 0;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+h6.section-title-div.horizontal-ellipsis {
+	font-size: 140%;
+    padding: .5em;
+}
+
+p.section-description-content {
+	font-size: 1em;
+    margin: 1%;
+    letter-spacing: .15em;
+}
+
+h6.section-footer.border-dash {
+	border-bottom: .05em solid rgba(0,0,0,0.75);
+    border-bottom-width: .15em;
+    width: 3%;
+    margin: 0 auto;
+    display: block;
+    height: 2em;
+    text-align: center;
+}
+
+h4.section-footer.notes {
+	font-size: .65em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding-top: 1.25%;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+    line-height: 1.85em;
+}
+h4.section-footer.notes.S02 {
+    font-size: .8em;
+}
+
+
+
+/* Layout */
+section.laytout,
+section.layout.present {
+    top: -29.95em;
+    position: fixed;
+    margin-top: -26.25em;
+}
+td.section.header {
+    height: 5.5em;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    background-color: rgba(64, 224, 208, 0.7);
+    /* top: .85em; */
+    text-align: center;
+    height: 200%;
+    top: -300%;
+}
+td.section.body {
+    height: 2230%;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    background-color: rgba(64, 224, 208, 0.7);
+    /* height: 45.15em; */
+    /* top: 6.35em; */
+    text-align: center;
+    top: -95%;
+}
+td.section.footer {
+    height: 5.5em;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    background-color: rgba(64, 224, 208, 0.7);
+    top: 51.5em;
+    text-align: center;
+    top: 2140%;
+    height: 200%;
+}
+
+
+
+/* Linking */
+.reveal a {
+    color: rgba(0,0,0,0.5);
+    position: relative;
+    text-decoration: none;
+    cursor: help; 
+    /* cursor: auto/; */
+}
+.reveal a:before {
+    color: rgba(0,0,0,0.5);
+}
+.reveal a:hover {
+    color: rgba(0,0,0,1);
+}
+.reveal a:after {
+    color: rgba(0,0,0,0.25);
+}
+
+
+/* Navigation */
+
+div.navigate-down-chevron,
+div.navigate-down-chevron-bsmt-top {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30%;
+    position: relative;
+    padding: 4.5% 0 3.5% 0;
+    z-index: 31;
+    border-top: 1px solid rgba(245,245,245,.5);
+    width: 6.25em;
+    border-style: groove;
+    padding-top: 2.5em;
+    background-color: rgba(245,245,245,.02);
+}
+a.navigate-down-chevron,
+a.navigate-down-chevron-bsmt-top {
+    width: 2em;
+    height: 2em;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-width: 1px;
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    display: block;
+    margin: 0 auto;
+    cursor: auto;
+}
+
+span.nav-down-plus-chevron,
+span.nav-down-plus-chevron-bsmt,
+.nav-down-plus-chevron,
+.nav-down-plus-chevron-bsmt,
+span.nav-up-plus-chevron-bottom,
+span.nav-up-plus-chevron-bsmt-top,
+.nav-up-plus-chevron-bottom,
+.nav-up-plus-chevron-bsmt-top {
+    visibility: hidden;
+}
+
+div.navigate-up-chevron-bsmt-top {
+    display: block;
+    margin: 0 auto;
+    margin-top: -5em;
+    position: relative;
+    padding: 4.5% 0 3.5% 0;
+    z-index: 31;
+    border-top: 1px solid rgba(245,245,245,.5);
+    width: 6.25em;
+    border-style: groove;
+    padding-top: 2.5em;
+    background-color: rgba(245,245,245,.02);
+    margin-bottom: 3em;
+}
+
+div.navigate-up-chevron-bottom {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30%;
+    position: relative;
+    padding: 4.5% 0 3.5% 0;
+    z-index: 31;
+    border-top: 1px solid rgba(245,245,245,.5);
+    width: 6.25em;
+    border-style: groove;
+    padding-top: 2.5em;
+    background-color: rgba(245,245,245,.02);
+}
+a.navigate-up-chevron-bsmt-top,
+a.navigate-up-chevron-bottom {
+    width: 2em;
+    height: 2em;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-width: 1px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    display: block;
+    margin: 0 auto;
+    cursor: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+/*
+div.progress[style="display: block;"] ~ footer:last-of-type#title-footer {
+    bottom: 5px;
+    padding-bottom: 1.2em;
+    opacity: .85;
+}
+
+footer#title-footer {
+    text-transform: uppercase;
+    font-size: 68%;
+    letter-spacing: .6em;
+    font-weight: lighter;
+}
+footer#title-footer p a {
+    color: rgba(255,255,255,0.75);
+    font-weight: lighter;
+    cursor: auto;
+}
+*/
+
+/* Border Scroller */
+/*
+.reveal .progress {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 5px;
+}
+.reveal .progress span {
+    background-color: rgba(127, 255, 212, 1);
+    height: 5px;
+    -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+*/
+

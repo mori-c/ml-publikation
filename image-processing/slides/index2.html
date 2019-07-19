@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body class="pTone">
+		<div class="reveal">
+			<div class="slides">
+				<section>Image Processing with Python</section>
+				<section data-background-iframe="https://hakim.se" data-background-interactive>
+					<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						Slide 1
+						<ul>
+							<li>Press 'S'</li>
+							<li><a href="#/2/3">Intergalactic Interconnections</a></li>
+							<li>
+								<pre><code class="hljs" data-trim data-line-numbers="4,8-11">hello</code></pre></li>
+							<li>Or here</li>
+						</ul>
+						<aside class="notes">
+							Hidden presentation notes
+							Press 'S'
+						</aside>
+					</div>
+				</section>
+				<section>
+					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+						Video BG
+						<br />
+						<a href="#" class="navigate-down">⬇</a>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">  
+						GIF BG
+					</section>
+					<section></section>
+					<section data-markdown>
+						<script type="text/template">
+							## Markdown support
+
+							Text [readme](https://github.com/hakimel/reveal.js#markdown)
+
+							<br />
+							<a href="#/2">⬆</a>
+						</script>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize( {
+                // Display controls in the bottom right corner
+                controls: true,
+
+                // Display a presentation progress bar
+                progress: true,
+
+                // If true; each slide will be pushed to the browser history
+                history: true,
+
+                center: true,
+
+                // Loops the presentation, defaults to false
+                loop: true,
+
+                // Flags if mouse wheel navigation should be enabled
+                mouseWheel: true,
+
+                // Apply a 3D roll to links on hover
+                rollingLinks: false,
+
+                // UI style
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                // theme: query.theme || 'default', // default/neon
+
+                // Transition style
+                transition: Reveal.getQueryHash().transition ||
+                    'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional reveal.js plugins
+
+                dependencies: [ {
+                        src: 'lib/js/classList.js',
+                        condition: function () {
+                            return !document.body.classList;
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/marked.js',
+                        condition: function () {
+                            return !!document.querySelector( '[data-markdown]' );
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/markdown.js',
+                        condition: function () {
+                            return !!document.querySelector( '[data-markdown]' );
+                        }
+                    },
+                    {
+                        src: 'plugin/highlight/highlight.js',
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    },
+                    {
+                        src: 'plugin/zoom-js/zoom.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/notes/notes.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/external/external.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/wave/webcam-swiper-0.1.js',
+                        async: true
+                    }, 
+					{ 
+                        src: 'plugin/mermaid/mermaid.js'
+                    }, 
+                    { 
+                        src: 'plugin/math/math.js'
+                    },
+                    {
+                         src: 'plugin/other/anything/anything.js'
+                    }, 
+					{ 
+                        src: 'plugin/other/mathsvg/math.js'
+                    }
+                ]
+
+            } );
+		</script>
+	</body>
+</html>

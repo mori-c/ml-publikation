@@ -1,0 +1,113 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/reveal.css">
+
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<!-- Example of nested vertical slides -->
+			<section data-background="purple">
+				<section>
+					<h2>Module</h2>
+					<h3>basement</h3>
+				</section>
+				<section>
+					<h2>header</h2>
+					<h2>Basement Level 2</h2>
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true
+			, progress: true
+			, history: true
+			, center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [
+				{
+					src: 'lib/js/classList.js'
+					, condition: function () {
+						return !document.body.classList;
+					}
+        }
+
+
+
+        
+				, {
+					src: 'plugin/markdown/marked.js'
+					, condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+        }
+
+
+
+        
+				, {
+					src: 'plugin/markdown/markdown.js'
+					, condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+        }
+
+
+
+
+        
+				, {
+					src: 'plugin/highlight/highlight.js'
+					, async: true
+					, callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+        }
+
+
+
+
+        
+				, { // 'esc' for site map overview style
+					src: 'plugin/zoom-js/zoom.js'
+					, async: true
+        }
+
+
+
+        
+				, { // speaker notes
+					src: 'plugin/notes/notes.js'
+					, async: true
+        }
+
+
+
+
+        
+				, { // create external pages
+					src: 'plugin/external/external.js'
+					, condition: function () {
+						return !!document.querySelector('[data-external]');
+					}
+        }
+      ]
+		});
+	</script>
+</body>
+
+</html>

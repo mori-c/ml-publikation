@@ -1,0 +1,729 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Index</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/2001.css" id="theme">
+
+        <!-- CUSTOM -->
+        <link rel="stylesheet" href="css/styling.css">
+        <link rel="stylesheet" media="all" href="css/media2.css">
+
+        <!-- PLUGINS -->
+        <link rel="stylesheet" href="lib/ven/animateCSS/animate.min.css">
+        <link rel="stylesheet" href="lib/ven/animateCSS/animate.css">
+
+        <!-- Overlay -->
+        <!-- >link rel="stylesheet" href="lib/ven/overlay/overlay.css" -->
+
+        <!-- Animated SVG Icons -->
+
+
+        <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+        <style>
+            .reveal h1.headers.title {
+                font-size: 2.75em;
+            }
+
+            .reveal h2.headers {
+                font-size: larger;
+            }
+
+            .reveal ol {
+                list-style-type: none; 
+                display: inline-flex;
+                font-size: 0.45em;
+                font-family: 'Quicksand', 'Century Gothic', 'Brandon Grotesque', 'Gill Sans', sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 0.15em;
+
+                width: -webkit-fill-available;   
+            }
+            
+            li.inline {
+                padding: 0.75% 2.25%;
+                margin: auto;
+                border: rgba(250, 235, 215, 1) 1px solid;
+            }
+
+            .arrow-icon {
+                font-size: 0.25em;
+            }
+            div.footer {
+                color: rgba(0,0,0,0.54);
+                font-family: 'Quicksand', 'Century Gothic', 'Brandon Grotesque', 'Gill Sans', sans-serif;
+                font-weight: bold;
+                font-size: 0.29em;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                border: 0px dotted pink;
+                right: 2em;
+                /* height: 1em; */
+                position: fixed;
+                display: block;
+                /* left: 4.5em; */
+                bottom: 0.75em;
+                z-index: 31;
+                padding: 5px;
+            }
+
+            h3.cite-footer {
+                color: rgba(0,0,0,0.54);
+                font-family: 'Quicksand', 'Century Gothic', 'Brandon Grotesque', 'Gill Sans', sans-serif;
+                font-weight: bold;
+                font-size: 0.3em ! important;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                z-index: 31;
+                padding: 5px;
+                text-align: left;
+                left: -16%;
+                bottom: -26em;
+                position: absolute;
+                width: 100%;
+                height: 3em;
+
+                border: 0px solid blue;
+                display: none;
+            }
+
+            h3.cite-footer2 {
+                color: rgba(0,0,0,0.54);
+                font-family: 'Quicksand', 'Century Gothic', 'Brandon Grotesque', 'Gill Sans', sans-serif;
+                font-weight: bolder;
+                font-size: 0.28em;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                line-height: 2em; 
+                text-align: left;
+                left: -15em;
+                position: fixed;
+                display: block;
+                bottom: -26em;
+                margin-bottom: 0 ! important;
+                z-index: 31;
+                padding: 5px;
+
+                border: 0px dotted red;
+            }
+        </style>
+
+    </head>
+
+    <body class="pastelle">
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+
+                <!-- 00 INTRO -->
+                <section id="main" class="headers intro" style="margin-top:1.5em;">
+                    <h1 class="headers title"><span style="float: left;">🖼 </span> <span
+                            style="float: right;"> 🐍 </span> 
+                    </h1>
+                    <h2 class="headers" style="font-size: 2.75em;">Image Processing</h2>
+                        <br>
+                        <h3 class=" sub-header-title"> with OpenCV in Python</h3>
+                    <script>
+                        // Delicously hacky. Look away.
+                        if ( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write(
+                            '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">(' + 'Tap to navigate' + ')</p>'
+                        );
+                    </script>
+
+                    <aside class="notes">
+                        <ul>
+							<li>name</li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+                    </aside>
+
+                    <!-- >h3 class="cite-footer">citation</h3 -->
+                    <h3 class="cite-footer2">citation</h3>
+                </section>
+
+                <!-- 01 TOC -->
+                <section class="headers toc" style="margin-top:-1em;">
+                    <h2 class="headers">Table of Contents</h2>
+                    <br />
+                         <ol>
+                            <li class="inline"><a href="#/0" class="image-processing">Image Processing</a></li>
+                            <li class="inline"><a href="#/1" class="applications">Applications</a></li>
+                            <li class="inline"><a href="#/2" class="digital-image">Digital Images</a></li>
+                            <!-- >li class="inline"><a href="#/2" class=""></a></li>
+                            <li class="inline"><a href="#/2" class=""></a></li>
+                            <li class="inline"><a href="#/2" class=""></a></li -->
+						</ol>  
+                       
+                    <aside class="notes">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+						</ul>  
+                    </aside>
+                </section> 
+                        
+                <!-- 02 IMG PROCESSING -->
+                <section class="headers">
+
+                    <!-- 02/00 Intro - Image Processing -->
+                    <section class="image-processing" data-background-state="pyladies/presentation/assets/bg/united/micro-bw.jpg">
+                        <h2 class="headers">Image Processing</h2>
+                        <h3 class="sub-header-title">ー Tricking the System ー</h3>
+                        <!-- h3 class=" sub-header-title">
+                            <ul>
+                                <li>geometric operations (various morphs)</li>
+                                <li>brightness and contrast correction</li>
+                                <li>colour enhancement</li>
+                                <li>segmentation</li>
+                                <li>denoising</li>
+                            </ul>  
+                        </h3 -->
+                        <h3 class="inverted sub-header-title"><a href="https://goo.gl/175YDE">https://goo.gl/175YDE</a></h3>
+                        <table style="font-size: 40%;">
+                            <thead>
+                                <tr>
+                                    <th>Features</th>
+                                    <th>Examples</th>
+                                    <th>Sub-features</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>geometric operations (various morphs)</td>
+                                    <td><img src="https://via.placeholder.com/300x100/a9a9a9/a9a9a9" /></td>
+                                    <td>
+                                    <ul>
+                                        <li>Scaling</li>
+                                        <li>Cropping</li>
+                                        <li>Rotation</li>
+                                        <li>Arbitrary morphs</li>
+                                    </ul> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>brightness and contrast correction</td>
+                                    <td><img src="https://via.placeholder.com/300x100/a9a9a9/a9a9a9" /></td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td>colour enhancement</td>
+                                    <td><img src="https://via.placeholder.com/300x100/a9a9a9/a9a9a9" /></td>
+                                    <td>2</td>
+                                </tr>
+                                 <tr>
+                                    <td>segmentation</td>
+                                    <td><img src="https://via.placeholder.com/300x100/a9a9a9/a9a9a9" /></td>
+                                    <td>2</td>
+                                </tr>
+                                 <tr>
+                                    <td>denoising</td>
+                                    <td><img src="https://via.placeholder.com/300x100/a9a9a9/a9a9a9" /></td>
+                                    <td>2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br />
+                        <!-- ol>
+                            <li class="inline"><a href="#/2/1" class="signal-processing">Signal Processing</a></li>
+                            <li class="inline"><a href="#/2/2" class="maths">Maths</a></li>
+                            <li class="inline"><a href="#/2/3" class="industries">Industries</a></li>
+                            <li class="inline"><a href="#/2/3" class="frameworks">Frameworks</a></li>
+						</ol -->  
+                        <aside class="notes">
+                        <ul>
+                            <li>4 Areas: signal processing, maths, industry applications, frameworks</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+						</ul>  
+                    </aside>
+                    </section>
+
+                    <!-- 02/01 Signal Processing -->
+                    <section class="basement signal-processing" data-state="bg-gradient-01">
+                        <h2 class="headers">Signal Processing</h2>
+                        
+                        <br />
+                        <table style="font-size: 50%;">
+                            <thead>
+                                <tr>
+                                    <th>Features</th>
+                                    <th>Examples</th>
+                                    <th>Sub-features</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>geometric operations (various morphs)</td>
+                                    <td>$1</td>
+                                    <td>
+                                    <ul>
+                                        <li>Scaling</li>
+                                        <li>Cropping</li>
+                                        <li>Rotation</li>
+                                        <li>Arbitrary morphs</li>
+                                    </ul> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lemonade</td>
+                                    <td>$2</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td>Bread</td>
+                                    <td>$3</td>
+                                    <td>2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a class="arrow-icon" href="#/2/0">⬆</a>
+                        <aside class="notes">
+                            <ul>
+                                <li>What is signal processing</li>
+                                <li></li>
+                                <li>difference between signal processing vs image processing math and algorithms</li>
+                                <li></li>
+                            </ul>  
+                        </aside>
+                    </section>
+
+                    <!-- 02/02 Maths -->
+                    <section class="basement maths">
+                        <h2 class="headers">Maths</h2>
+                        <h3 class=" sub-header-title">Maths</h3>
+                        <a  class="arrow-icon" href="#/2/0">⬆</a>
+                        <aside class="notes">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>  
+                        </aside>
+                    </section>
+
+                    <!-- 02/03 Industry Applications -->
+                    <section class="basement applications" data-state="bg-gradient-01">
+                        <h2 class="headers">Applications</h2>
+                        <h3 class=" sub-header-title">by industries</h3>
+                        <img src="https://usblogs.pwc.com/emerging-technology/wp-content/uploads/2016/06/potential-applications-of-deep-learning.png" height="450em" />
+                        <a class="arrow-icon" href="#/2/0">⬆</a>
+                        <aside class="notes">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>  
+                        </aside>
+                    </section>
+
+                    <!-- 02/04 Frameworks -->
+                    <section class="basement frameworks">
+                        <h2 class="headers">Frameworks</h2>
+                        <h3 class=" sub-header-title">OpenCV</h3>
+                        <table style="font-size: 35%;">
+                            <thead>
+                                <tr>
+                                    <th>Features</th>
+                                    <!-- Library Framework -->
+                                    <th>OpenCV</th>
+                                    <th>PyTorch</th>
+                                    <th>Tensorflow</th>
+                                    <th>SimpleCV</th>
+                                    <th>Google Vision API</th>
+                                    <th>Microsoft Vision API</th>
+                                    <th>AWS Recogniztion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Total Images Processed	</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Extracted data	</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Correctly Extracted	</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                 <tr>
+                                    <td>Incorrect extraction	</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                 <tr>
+                                    <td>Not Extracted anything	</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                 <tr>
+                                    <td>Recall % <sup>+<sup>	</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                 <tr>
+                                    <td>*Precision % <sup>+ +<sup>	</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a  class="arrow-icon" href="#/2/0">⬆</a>
+                        <aside class="notes">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>  
+                        </aside>
+                        <h3 class="cite-footer2" style="left: -3em; bottom: -24em;">
+                            <ul class="inline">
+                                <li><sup>+<sup>  Recall % = Extracted data / Total Images Processed</li>
+                                <li><sup>+ +<sup>  Precision % = Correctly extracted / Total extracted data</li>
+                                <li>https://blog.playment.io/compare-computer-vision-apis-for-ocr/</li>
+                            </ul>
+                        </h3>
+                    </section>
+
+                </section>
+
+                <section class="headers applications">
+
+                    <section class="headers">
+                        <h2 class="headers">🖼 cryption</h2>
+                        <br>
+                        <h3 class=" sub-header-title">Steganography</h3>
+                        <br>
+                        <h3 class="inverted sub-header-title"><a href="https://stylesuxx.github.io/steganography/">https://goo.gl/fWK7P7</a></h3>
+                    </section>
+
+                    <section class="basement splash" data-state="bg-gradient-01">
+                        <img
+                            src="https://img.wonderhowto.com/img/02/61/63645877844452/0/steganography-hide-secret-data-inside-image-audio-file-seconds.w1456.jpg" />
+                        <h3 class=" sub-header-title"><a href=""></a></h3>
+                    </section>
+
+                    <section class="basement splash" data-state="bg-gradient-01">
+                        <img
+                            src="https://img.wonderhowto.com/img/39/27/63645855710304/0/steganography-hide-secret-data-inside-image-audio-file-seconds.w1456.jpg" />
+                        <h3 class=" sub-header-title">Reverse Image Search Produces Null Results</h3>
+                    </section>
+
+                </section>
+
+                <section class="headers digital-image">
+
+                    <section class="headers">
+                        <h2 class="headers">🍄 Optical 🧚🏻‍♀️ illusion</h2>
+                        <br>
+                        <h3 class=" sub-header-title"> black-box</h3>
+                        <br>
+                        <h3 class="inverted sub-header-title"><a href="https://goo.gl/fkpt3u">https://goo.gl/fkpt3u</a></h3>
+                    </section>
+
+                    <section class="basement splash">
+                        <img
+                            src="https://cdn.vox-cdn.com/thumbor/ED4P-5nh-ZYiSV479f_5wpmu5V0=/0x15:1727x986/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/51657551/Screenshot_20_9_.0.png" />
+                        <h3 class=" sub-header-title"></h3>
+                    </section>
+
+
+                </section>
+
+                <section class="headers">
+
+                    <section class="headers">
+                        <h2 class="headers">one - Pixel Masterpiece</h2>
+                        <br>
+                        <h3 class="sub-header-title">Gradient Masking</h3>
+                        <!--br>
+                        <h3 class="inverted sub-header-title"><a href="https://goo.gl/175YDE">https://goo.gl/175YDE</a>  </h3>-->
+                    </section>
+
+                    <section class="basement splash" data-state="bg-gradient-01">
+                        <img src="https://cdn-images-1.medium.com/max/1600/1*BjlKvCyAl-o_70PDlZ5_Qw.png"
+                            style="margin-top: -4em;" />
+                        <h3 class=" sub-header-title"><a href=""></a></h3>
+                    </section>
+
+                </section>
+
+                <section class="headers">
+
+                    <section class="headers">
+                        <h2 class="headers">Sticker Artist</h2>
+                        <br>
+                        <h3 class="sub-header-title">Adversarial Attack</h3>
+                        <br>
+                        <h3 class="inverted sub-header-title"><a href="https://goo.gl/175YDE">https://goo.gl/175YDE</a></h3>
+                    </section>
+
+                    <section class="basement splash" data-state="bg-gradient-01">
+                        <video autoplay="" muted="" loop="" playsinline="" class="c-gifv"
+                            style="object-position: 50% 50% ;"
+                            src="https://cdn.vox-cdn.com/thumbor/bVHIabBFbxi9TZCZbir9wfJjz7Q=/0x0:652x316/620x413/filters:focal(274x106:378x210):gifv():no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/58191589/adversarial_patch_.0.gif"
+                        </video> 
+                    </section> 
+
+                </section> 
+                                                                    
+                <section class="headers">
+                    <h3 class="sub-header-title">2019 Constant Mori</h3>
+                </section> 
+
+                <section class="headers">   
+
+                    <h3 class="sub-header-title">Resources</h3>
+                    <br>
+                    <div style="text-align: left;line-height:1em;">
+
+                        <h3 class="sub-header-title">To cripple AI, hackers are turning data against itself</h3>
+                        <a href="https://www.wired.co.uk/article/artificial-intelligence-hacking-machine-learning-adversarial"><h3 class="inverted sub-header-title"> ー Wired  [2018 Sep 11]</h3>
+                        </a>
+                        <h3 class="sub-header-title">Before Using AI, You Need to Know How to Protect It</h3>
+                        <a href="https://chatbotsmagazine.com/before-using-ai-you-need-to-know-how-to-protect-it-91bd1f2d6da9">
+                        <h3 class="inverted sub-header-title"> ー Octane AI  [2018 Jul 16]</h3>                                
+                        </a>
+                        <h3 class="sub-header-title">Firewalls Don't Stop Hackers. AI Might.</h3>
+                        <a href="https://www.wired.com/story/firewalls-dont-stop-hackers-ai-might/">
+                        <h3 class="inverted sub-header-title"> ー Wired  [2017 Sep 27]</h3>                                
+                        </a>                         
+                        <h3 class="sub-header-title">Adversarial Attacks: How to Trick Computer Vision</h3>
+                        <a href="https://hackernoon.com/adversarial-attacks-how-to-trick-computer-vision-7484c4e85dc0">
+                        <h3 class="inverted sub-header-title"> ー Hackernoon  [2018 Dec 14]</h3>
+                        </a> 
+                        <h3 class="sub-header-title">These stickers make computer vision software hallucinate things that aren’t there</h3>  
+                        <a href="https://www.theverge.com/2018/1/3/16844842/ai-computer-vision-trick-adversarial-patches-google">
+                        <h3 class="inverted sub-header-title"> ー The Verge  [2018 Jan 08]</h3>
+                        </a> 
+                        <h3 class="sub-header-title">Adversarial methods to trick computer vision for art project</h3>
+                        <a href="https://www.reddit.com/r/computervision/comments/asahtr/adversarial_methods_to_trick_computer_vision_for/">
+                        <h3 class="inverted sub-header-title"> ー reddit/computer vision  [2019 Feb 19]</h3>
+                        </a> 
+                        
+                    </div>
+
+                </section> 
+
+            </div><!-- End of Slides -->
+
+            <!-- The navigational controls UI -->
+            <aside class="controls" style="display: block;">
+                <button class="navigate-left" aria-label="previous slide"></button>
+                <button class="navigate-right enabled" aria-label="next slide"></button>
+                <button class="navigate-up" aria-label="above slide"></button>
+                <button class="navigate-down" aria-label="below slide"></button>
+            </aside>
+
+            <!-- Custom Navigations -->
+            <!-- Top Right Corner Hamburger -->
+            <aside class="control-menu" style="display: block;">
+                <a href="menu.html" data-preview-link>
+                    <img class="animated pulse" src="assets/img/plus.png" />
+                </a>
+            </aside>
+
+            <!-- Bottom center footer -->
+            <div class="footer">
+                    <!-- div style="float: left; width: 70%; bottom: 0.75em; position: absolute;"> Citeation </div --> 
+                    <!-- >div style="width: 50%;border: 2px dotted blue;">test</div --> 
+                    <div style=" /* float: right; width: 30%; */ line-height: 2em; text-align: right;">   
+                    JULY 2019  <b>©</b> Constant Mori
+                    <br />
+                    github / mori-c   ➖   🐦  halloconnie</div> 
+                    
+                    <!-- >a class="icon nav max social" href="#">
+                        <img src="assets/ico/svg/maximize.svg" />
+                    </a>
+                    <a class="icon nav plus social" href="#/4">
+                        <img src="assets/ico/svg/plus.svg" />
+                    </a-->
+                </div>
+
+            <!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+            <!-- >div class="progress"><span></span></div -->
+
+        </div><!-- End of Reveal -->
+
+        <!-- Optional libraries for code syntax highlighting and classList support in IE9 -->
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script src="js/bg-iframe.js"></script>
+
+        <!-- Overlay -->
+        <!-- >script src="lib/ven/overlay/modernizr.overlay.js"></script>
+        <script src="lib/ven/overlay/classie.js"></script>
+        <script src="lib/ven/overlay/overlay.js"></script -->
+
+
+
+        <script>
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize( {
+                // Display controls in the bottom right corner
+                controls: true,
+
+                // Display a presentation progress bar
+                progress: true,
+
+                // If true; each slide will be pushed to the browser history
+                history: true,
+
+                center: true,
+
+                // Loops the presentation, defaults to false
+                loop: true,
+
+                // Flags if mouse wheel navigation should be enabled
+                mouseWheel: true,
+
+                // Apply a 3D roll to links on hover
+                rollingLinks: false,
+
+                // UI style
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                // theme: query.theme || 'default', // default/neon
+
+                // Transition style
+                transition: Reveal.getQueryHash().transition ||
+                    'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional reveal.js plugins
+
+                dependencies: [ {
+                        src: 'lib/js/classList.js',
+                        condition: function () {
+                            return !document.body.classList;
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/marked.js',
+                        condition: function () {
+                            return !!document.querySelector( '[data-markdown]' );
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/markdown.js',
+                        condition: function () {
+                            return !!document.querySelector( '[data-markdown]' );
+                        }
+                    },
+                    {
+                        src: 'plugin/highlight/highlight.js',
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    },
+                    {
+                        src: 'plugin/zoom-js/zoom.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/notes/notes.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/external/external.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/wave/webcam-swiper-0.1.js',
+                        async: true
+                    }, 
+					{ 
+                        src: 'plugin/mermaid/mermaid.js'
+                    }, 
+                    { 
+                        src: 'plugin/math/math.js'
+                    },
+                    {
+                         src: 'plugin/other/anything/anything.js'
+                    }, 
+					{ 
+                        src: 'plugin/other/mathsvg/math.js'
+                    }
+                ]
+
+            } );
+
+            /*
+            Reveal.addEventListener("slidechanged",function(){
+              setTimeout(function(){ // Needed because the charter.js isnt loaded and executed by that time.
+                // To access them
+                // The RevealChart contains iframe ids as properties (replacing '-' with '_')
+                console.log(RevealChart.some_selector.canvas);
+              },500);
+            },false);
+            */
+
+        </script>
+
+    </body>
+
+</html>
